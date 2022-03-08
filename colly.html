@@ -1,24 +1,48 @@
 <!DOCTYPE html>
+<html>
 <head>
     <title>I Love Vet</title>
     <link rel="shortcut icon" href="./Imagens/icon.jpg" type="image/x-icon" >
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="reset.min.css">
-    <link rel="stylesheet" href="animation.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/slick-theme.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!--JS-->
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.js"></script>
 
 </head>
 <body> 
-    <div class="container">
-        <main class="main">
-            <selection class="galery">
-                <div class="fotos">
-                    <img src="./Imagens/imagem1.jpg" alt="Foto 1">
-                    <img src="./Imagens/imagem2.jpg" alt="Foto 2">
-                    <img src="./Imagens/imagem3.jpeg" alt="Foto 3">
-                    <img src="./Imagens/imagem4.jpg" alt="Foto 4">
-                    <img src="./Imagens/imagem1.jpg" alt="Foto 1">
-                </div>
-            </selection>
-        </main>
-    </div>
+
+    <header id="header">
+        <div class="inicio">
+            <div class="topo"></div>
+                <img src="./Imagens/logo.png" alt="Imagem Logo" class="logo" id="imglogo">
+                <h1 class="titulo">Blog de estudos Med Vet</h1>
+            </div>
+            <div class="linha-topo">
+                <nav> 
+                    <ul class="topicos">
+                        <li class="top1"><a href="">Blog</a></li>
+                        <li class="top2"><a href="">Contatos</a></li>
+                        <li class="top3"><a href="">Serviços Gratuitos</a></li>
+                        <li class="top4"><a href="">História</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="carousel">
+            
+            <div><a href = "https://www.instagram.com/futuradravet/"><img src="./Imagens/imagem1.jpg" alt="Foto 1"></a></div>
+            <div><a href = "https://www.instagram.com/futuradravet/"><img src="./Imagens/imagem2.jpg" alt="Foto 2"></a></div>
+            <div><a href = "https://www.instagram.com/futuradravet/"><img src="./Imagens/imagem3.jpeg" alt="Foto 3"></a></div>
+            <div><a href = "https://www.instagram.com/futuradravet/"><img src="./Imagens/imagem4.jpg" alt="Foto 4"></a></div>
+        </div>
+    </main>
+
 </body>
+<script src="custom.js"></script>
+</html>
